@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mapp"
+    namespace = "com.example.ex10"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.mapp"
+        applicationId = "com.example.ex10"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -41,5 +41,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
-    implementation("org.osmdroid:osmdroid-android:6.1.18")
 }

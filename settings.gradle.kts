@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mapp"
+rootProject.name = "ex10"
 include(":app")
  

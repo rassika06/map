@@ -1,4 +1,4 @@
-package com.example.mapp;
+package com.example.ex10;
 
 import org.junit.Test;
 
